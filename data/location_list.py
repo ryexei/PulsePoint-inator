@@ -2,6 +2,8 @@ import json
 # vertices = [Vertex("0"), Vertex("1"), Vertex("2"), Vertex("3"), Vertex("4"), Vertex("5"), Vertex("6"), Vertex("7"), Vertex("8"), Vertex("9"), Vertex("10"), Vertex("11"), Vertex("12"), Vertex("13"), Vertex("14"), Vertex("15"), Vertex("16"), Vertex("17"), Vertex("18"), Vertex("19"), Vertex("20"), Vertex("21"), Vertex("22"), Vertex("23"), Vertex("24"), Vertex("25"), Vertex("26"), Vertex("27"), Vertex("28"), Vertex("29"), Vertex("30"), Vertex("31"), Vertex("32"), Vertex("33"), Vertex("34"), Vertex("35"), Vertex("36"), Vertex("37"), Vertex("38"), Vertex("39"), Vertex("40"), Vertex("41"), Vertex("42"), Vertex("43"), Vertex("44"), Vertex("45"), Vertex("46"), Vertex("47"), Vertex("48"), Vertex("49"), Vertex("50"), Vertex("51"), Vertex("52"), Vertex("53"), Vertex("54"), Vertex("55"), Vertex("56"), Vertex("57"), Vertex("58"), Vertex("59"), Vertex("60"), Vertex("61"), Vertex("62"), Vertex("63"), Vertex("64"), Vertex("65"), Vertex("66"), Vertex("67"), Vertex("68"), Vertex("69"), Vertex("70"), Vertex("71"), Vertex("72"), Vertex("73"), Vertex("74"), Vertex("75")]
 # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75 = vertices
 
+# adjacency list
+
 adj_list = {
 "0": [[1, 2], [2, 7], [3, 11], [4, 11], [5, 15], [7, 8], [8, 13], [58, 16]],
 "1": [[0, 2], [2, 7], [7, 7], [57, 16], [58, 5], [65, 13], [66, 6]],

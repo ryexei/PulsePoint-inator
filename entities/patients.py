@@ -15,7 +15,7 @@ class Patient:
         patients = []
 
         # number of patients
-        nodes = random.sample([n for n in graph.keys() if n != hospital_location], random.randint(1, 5))
+        nodes = random.sample([n for n in graph.keys() if n != hospital_location], random.randint(5, 10))
 
         for node in nodes:
             path, distance = dijkstra(graph, hospital_location, node)

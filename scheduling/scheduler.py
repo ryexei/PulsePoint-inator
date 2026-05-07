@@ -74,7 +74,7 @@ class Scheduler:
         max_wait = max(r["waiting_time"] for r in results) if n else 0
         min_wait = min(r["waiting_time"] for r in results) if n else 0
 
-        throughput = n / total_time if total_time > 0 else 0
+        throughput = round(n / total_time * 10) if total_time > 0 else 0
 
         return {
             "count": n,

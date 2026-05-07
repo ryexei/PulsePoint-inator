@@ -452,7 +452,7 @@ def draw_metrics_popup(screen, font, metrics):
         f"Average Turnaround Time: {metrics['avg_turn']:.2f}",
         f"Total Simulation Time: {metrics['total_time']:.2f}",
         "",
-        f"Throughput: {metrics['throughput']:.3f} patients/unit time",
+        f"Throughput: {int(metrics['throughput'])} patients/unit time",
         "",
         "Press R to reset"
     ]
